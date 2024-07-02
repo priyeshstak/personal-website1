@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+
+}
+.navbar-brand,.nav-link{
+    color: black;
+    
+}
+.nav-link{
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.main{
+    background: url(https://envato-shoebox-0.imgix.net/0579/e776-1b59-466d-b063-56da5235b878/NZ5_9865.JPG?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=800&fit=max&markalign=center%2Cmiddle&markalpha=18&s=8fdeb822d2aa8328cf17b871ab5f3cbe) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main h1{
+    font-size: 4.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid red;
+    width: 100%;
+}
+.cat-logo{
+    width: 250px;
+    height: 100px;
+}
